@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: bisque;
+    font-family: "Open Sansa Condensend", sans-serif;
+    color: black;
+}
+
+h1 {
+    line-height: 32px;
+}
+
+img {
+    height: 200px;
+    width: auto;
+}
+
+/* Header area */
+
+header {
+    background: #333;
+    text-align: right;
+}
+
+nav ul {
+    list-style-type: none;
+}
+ul li a {
+    padding: 20px;
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+header li {
+    display: inline-block;
+}
+
+li:hover {
+    background-color: red;
+}
+
+
+section {
+    display: inline-block;
+    padding: 32px;
+}
+
+/* Boxes */
+#boxes {
+    background: url(http://source.unsplash.com/xC7Ho08RYF4) no-repeat fixed center center/cover;
+}
+
+.box {
+    display: inline-block;
+    margin: 32px;
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5 {
+    height: 200px;
+    width: 200px;
+    background: rgb(155, 155, 155);
+    margin-bottom: 10px;
+}
+
+.box1 {
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 15px;
+    border-color: blue green yellow red;
+    background-color: white;
+}
+.box2 {
+    border-radius: 50px;
+    border: 10px dashed rgb(135, 222, 144);
+    background-color: rgb(78, 78, 78);
+}
+.box3 {
+    background-color: crimson;
+    border-radius: 100px;
+    border-style: dashed;
+    border-color: aliceblue;
+    border-width: 5px;
+}
+.box4 {
+    border: 10px solid darksalmon;
+}
+.box5 {
+    background-color: green;
+    border: 10px double blue;
+}
+
+/* table */
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    width: 200px;
+    padding: 15px;
+}
+
+thead {
+    font-weight: bold;
+    background: #333;
+    color: white;
+}
+
+tbody {
+    color: #333;
+}
+
+tbody td {
+    border-bottom: 1px solid #333;
+}
